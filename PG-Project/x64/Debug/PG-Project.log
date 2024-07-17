@@ -1,0 +1,3 @@
+﻿  PG-Project.cpp
+C:\Users\Fozik\source\repos\PG-Project\PG-Project\PG-Project.cpp(20,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  PG-Project.vcxproj -> C:\Users\Fozik\source\repos\PG-Project\x64\Debug\PG-Project.exe
