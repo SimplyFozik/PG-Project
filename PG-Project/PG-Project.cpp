@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include <windows.h>
 #include <stdlib.h>
 #include <string>
 #include <ctime>
@@ -22,11 +23,16 @@ int main()
     std::cout << "Welcome to password generator\nDo you want to use special characters in your password? [y/n] : ";
     std::cin >> userChoice;
     if (userChoice == 'y') useSpecial = true;
-    else useSpecial = false;
+    else if (userChoice == 'n') useSpecial = false;
+    else {
+        std::cout << "Invalid symbol " << userChoice << "\nExiting in 3 seconds\n";
+        Sleep(3000);
+        exit(1);
+    }
 
     std::cout << "Type lenght of your password : ";
     std::cin >> lenght;
-    std::cout << "Generating your password!";
+    std::cout << "Generating your password...";
     
     auto begin = std::chrono::steady_clock::now();
     switch (useSpecial)
@@ -34,7 +40,7 @@ int main()
     case 0:
         for (int i = 0; i < lenght; i++)
         {
-            switch (rand() % 3)
+            switch (rand() % 2)
             {
             case 0:
                 password += numbers[rand() % 10];

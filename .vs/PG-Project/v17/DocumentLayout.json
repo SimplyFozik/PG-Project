@@ -5,6 +5,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{FBE2E107-09CA-4CB0-A44B-4E5958654F64}|PG-Project\\PG-Project.vcxproj|C:\\Users\\Fozik\\source\\repos\\PG-Project\\PG-Project\\PG-Project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FBE2E107-09CA-4CB0-A44B-4E5958654F64}|PG-Project\\PG-Project.vcxproj|solutionrelative:PG-Project\\PG-Project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBE2E107-09CA-4CB0-A44B-4E5958654F64}|PG-Project\\PG-Project.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\ENTERPRISE\\VC\\TOOLS\\MSVC\\14.40.33807\\INCLUDE\\THREAD||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +17,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "thread",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.40.33807\\include\\thread",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.40.33807\\include\\thread",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.40.33807\\include\\thread",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.40.33807\\include\\thread",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAwDsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-21T12:56:31.553Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +40,7 @@
               "RelativeDocumentMoniker": "PG-Project\\PG-Project.cpp",
               "ToolTip": "C:\\Users\\Fozik\\source\\repos\\PG-Project\\PG-Project\\PG-Project.cpp",
               "RelativeToolTip": "PG-Project\\PG-Project.cpp",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADQAAAANAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAADEAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-17T13:26:12.522Z",
               "EditorCaption": ""
